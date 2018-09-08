@@ -16,7 +16,7 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 
 # install packages
 sudo dnf -y upgrade
-sudo dnf -y install code docker-ce firefox git terminator zsh
+sudo dnf -y install code docker-ce firefox git zsh
 sudo dnf -y autoremove
 sudo dnf -y clean packages
 
