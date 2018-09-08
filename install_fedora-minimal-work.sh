@@ -7,12 +7,6 @@ terraform_version=0.11.8
 # TODO: bundler
 # TODO: intellij
 
-# upgrade system
-sudo dnf -y upgrade
-
-# install dependencies
-sudo dnf -y install dnf-plugins-core qubes-core-agent-networking
-
 # docker
 sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 
