@@ -66,8 +66,8 @@ sudo ln -sf /opt/intellij/bin/idea.sh /usr/bin/idea.sh
 # settings
 sudo usermod -s /usr/bin/zsh user
 sed -i "/^ZSH_THEME=/c\\ZSH_THEME=\"${zsh_theme}\"" ~/.zshrc
-rsync -a --delete ~/.zshrc /etc/skel
-rsync -a --delete ~/.oh-my-zsh /etc/skel
+sudo rsync -a --delete ~/.zshrc /etc/skel
+sudo rsync -a --delete ~/.oh-my-zsh /etc/skel
 
 # cleanup
 rm -f /tmp/*.tar.gz /tmp/*.zip
