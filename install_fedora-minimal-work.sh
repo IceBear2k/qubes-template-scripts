@@ -3,6 +3,7 @@
 intellij_version=2018.2.3
 packer_version=1.2.5
 terraform_version=0.11.8
+zsh_theme="bira"
 
 # install dependencies and fedora repo packages
 sudo dnf -y upgrade
@@ -54,6 +55,7 @@ fi
 
 # thefuck
 sudo -H pip3 install thefuck
+grep -q -F 'eval $(thefuck --alias)' ~/.zshrc || echo 'eval $(thefuck --alias)' >> ~/.zshrc
 
 # intellij
 sudo mkdir -p /opt/intellij
@@ -63,6 +65,7 @@ sudo ln -sf /opt/intellij/bin/idea.sh /usr/bin/idea.sh
 
 # settings
 sudo usermod -s /usr/bin/zsh user
+sed -i "/^ZSH_THEME=/c\\ZSH_THEME=\"${zsh_theme}\"" ~/.zshrc
 rsync -a --delete ~/.zshrc /etc/skel
 rsync -a --delete ~/.oh-my-zsh /etc/skel
 
