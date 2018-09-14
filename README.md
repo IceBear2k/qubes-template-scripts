@@ -32,6 +32,7 @@ There are different TemplateVM flavors for different usage scenarios.
 
 ### Sync
 
+* [OpenSSH server](https://www.openssh.com/)
 * [Synology Cloud Station Drive](https://www.synology.com/en-us/releaseNote/CloudStationDrive) (proprietary)
 
 ### Vault
