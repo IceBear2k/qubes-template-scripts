@@ -4,7 +4,7 @@ synology_cloud_station_drive_version=4.2.8-4421
 
 # install packages
 sudo dnf -y upgrade
-sudo dnf -y install openssh-server
+sudo dnf -y install openssh-server syncthing
 sudo dnf -y autoremove
 sudo dnf -y clean packages
 
