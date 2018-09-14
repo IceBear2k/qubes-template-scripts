@@ -19,8 +19,6 @@ There are different TemplateVM flavors for different usage scenarios.
 
 ### Base
 
-Installs:
-
 * [Git](https://git-scm.com/)
 * [OpenSSH client](https://www.openssh.com/)
 * Qubes networking
@@ -28,34 +26,24 @@ Installs:
 
 ### Personal
 
-Installs:
-
 * [Chromium](https://www.chromium.org/Home)
 * [LibreOffice](https://www.libreoffice.org/)
 * [Thunderbird](https://www.thunderbird.net/)
 
 ### Sync
 
-Installs:
-
 * [Synology Cloud Station Drive](https://www.synology.com/en-us/releaseNote/CloudStationDrive) (proprietary)
 
 ### Vault
-
-Installs:
 
 * [Cryptomator](https://cryptomator.org/)
 * [KeePassXC](https://keepassxc.org/)
 
 ### VPN
 
-Installs:
-
 * [OpenVPN](https://openvpn.net/)
 
 ### Work
-
-Installs:
 
 * [Chromium](https://www.chromium.org/Home)
 * [Docker](https://www.docker.com/)
