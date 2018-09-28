@@ -8,7 +8,7 @@ sudo dnf -y localinstall https://bintray.com/cryptomator/cryptomator-rpm/downloa
 
 # install packages
 sudo dnf -y upgrade
-sudo dnf -y install keepassxc syncthing
+sudo dnf -y install keepassxc nfs-utils
 sudo dnf -y autoremove
 sudo dnf -y clean packages
 
